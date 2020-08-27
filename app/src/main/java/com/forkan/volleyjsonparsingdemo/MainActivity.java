@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
                 recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
                 adapter = new Adapter(getApplicationContext(), songs);
                 recyclerView.setAdapter(adapter);
+                
             }
         }, new Response.ErrorListener() {
             @Override
